@@ -7,12 +7,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document("Clientes")
 public class Lista {
     private static final long serialVersionUID = 1L;
-    private long item;
+    private long categoria;
     private  String descricao;
-    private Date data;
     private boolean isPegou;
 
 }
