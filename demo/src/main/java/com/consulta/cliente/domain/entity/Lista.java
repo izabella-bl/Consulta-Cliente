@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 public class Lista {
     private static final long serialVersionUID = 1L;
-    private long categoria;
+    private long listaCompra;
     private  String descricao;
     private boolean isPegou;
 
